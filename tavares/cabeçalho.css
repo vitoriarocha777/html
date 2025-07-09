@@ -1,7 +1,7 @@
 .cabeçalho{
     background: linear-gradient(rgba(48, 169, 199, 0.5),
     rgba(226, 214, 214, 0.89)),
-    url(../tavares/imagem/20210411-162238.webp);
+    url(../vih/imagem/7e77ff2c-79c3-4048-9127-c334c94c3743.jpeg);
     /*separar gradiente a imagem de fundo */
     background-size: cover; /*centraliza a imagem de fundo */
     background-position: center;
@@ -33,3 +33,6 @@
     text-decoration: none;
     border-radius: 5px;
     }
+
+
+    

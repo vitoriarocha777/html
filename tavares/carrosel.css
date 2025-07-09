@@ -1,4 +1,4 @@
-.carousel-inner img {
+carousel-inner img {
     width: 100%;
     height: auto;
     max-height: 600px; /* ajuste a altura maxima conforme necessario */
@@ -25,6 +25,7 @@
     .carousel-control-prev-icon,
           .carousel-control-next-icon{
             background-color: black;
-          }
+   }
+    
     
     
