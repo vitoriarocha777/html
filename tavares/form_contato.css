@@ -58,3 +58,16 @@ input,textarea {
     transform: scale(1.5);
 }
 
+.checkbox-container label{
+    font-weight: bold;
+    margin: 0;/*remover margens adicionar ao redor do texto*/
+    flex-grow: 1;/* permite que o texto uso mais espaço disponivel*/
+}
+
+.checkbox-container a{
+    color: #007bff;
+    text-decoration: underline;
+    margin: 0;/* remover margens adicionar ao redor o link */
+}
+
+
