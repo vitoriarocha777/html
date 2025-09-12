@@ -20,6 +20,8 @@ resultadoDiv.innerHTML = resultadoHTML;
   }
 }
 
+
+
  
 
  
