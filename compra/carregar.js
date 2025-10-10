@@ -40,4 +40,4 @@ function carregarListaDoArquivo(file) {
 
 //Eventos
 btnCarregar;addEventListener('click', () => inputArquivo.click());
-inputArquivo.addEventListener('change'.)
+inputArquivo.addEventListener 
