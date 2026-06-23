@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sabor Burguer</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🍔 Sabor Burguer</h1>
+<p>Os melhores lanches da cidade</p>
+</header>
+
+<section class="produtos">
+
+<h2>🍔 Cardápio</h2>
+
+<div class="produto">
+<h3>X-Burguer</h3>
+<p>Hambúrguer, queijo e salada</p>
+<b>R$ 18,00</b>
+
+<button onclick="comprar('X-Burguer',18)">
+Comprar
+</button>
+
+</div>
+
+<div class="produto">
+<h3>X-Bacon</h3>
+<p>Hambúrguer, queijo e bacon</p>
+<b>R$ 25,00</b>
+
+<button onclick="comprar('X-Bacon',25)">
+Comprar
+</button>
+
+</div>
+
+
+
+
+<div class="produto">
+
+<h3>Batata Frita</h3>
+
+<p>Porção grande</p>
+
+<b>R$ 12,00</b>
+
+<button onclick="comprar('Batata Frita',12)">
+Comprar
+</button>
+
+</div>
+
+
+
+</section>
+
+
+
+
+<section class="carrinho">
+
+
+<h2>🛒 Carrinho</h2>
+
+
+<ul id="carrinho"></ul>
+
+
+<h3>Total: R$ <span id="total">0</span></h3>
+
+
+
+</section>
+
+
+
+
+<section class="pagamento">
+
+
+<h2>💳 Pagamento</h2>
+
+
+<input id="nome" placeholder="Nome do cliente">
+
+
+
+<select id="pagamento">
+
+
+<option>PIX</option>
+
+<option>Dinheiro</option>
+
+<option>Cartão Débito</option>
+
+<option>Cartão Crédito</option>
+
+
+</select>
+
+
+
+<button onclick="finalizar()">
+
+Finalizar Pedido
+
+</button>
+
+
+
+</section>
+
+
+
+
+
+<section class="estoque">
+
+
+<h2>📦 Estoque</h2>
+
+
+
+<p>
+X-Burguer:
+<span id="estoque1">10</span>
+</p>
+
+
+<p>
+X-Bacon:
+<span id="estoque2">10</span>
+</p>
+
+
+<p>
+Batata Frita:
+<span id="estoque3">10</span>
+</p>
+
+
+
+</section>
+
+
+
+
+<footer>
+
+<p>
+© 2026 Sabor Burguer
+</p>
+
+</footer>
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
